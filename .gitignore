@@ -1,1 +1,62 @@
 .DS_Store
+commit 1552c66b96d377350fb265947536d5eb8c74a4a1
+tree 30652236daf5522e32b511b2452c37839349c342
+parent 24d9e53d7b34d69cf6a6544488dca71a675f002e
+author damien <dfe@connecthings.com> 1614942248 +0100
+committer damien <dfe@connecthings.com> 1614942248 +0100
+
+    Add HerowTestSDK-sylvain
+
+diff --git a/HerowSDKTEST.ipa b/HerowSDKTEST.ipa
+new file mode 100644
+index 0000000..9504f81
+Binary files /dev/null and b/HerowSDKTEST.ipa differ
+diff --git a/HerowSDKTEST.plist b/HerowSDKTEST.plist
+new file mode 100755
+index 0000000..0d088f9
+--- /dev/null
++++ b/HerowSDKTEST.plist
+@@ -0,0 +1,43 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>items</key>
++	<array>
++		<dict>
++			<key>assets</key>
++			<array>
++				<dict>
++					<key>kind</key>
++					<string>software-package</string>
++					<key>url</key>
++					<string>https://raw.githubusercontent.com/aga-ct/hbeta/master/HerowSDKTEST.ipa</string>
++				</dict>
++				<dict>
++					<key>kind</key>
++					<string>display-image</string>
++					<key>url</key>
++					<string>https://kohlanta.adtag.fr/testing/herow..png</string>
++				</dict>
++				<dict>
++					<key>kind</key>
++					<string>full-size-image</string>
++					<key>url</key>
++					<string>https://kohlanta.adtag.fr/testing/herow.png</string>
++				</dict>
++			</array>
++			<key>metadata</key>
++			<dict>
++				<key>bundle-identifier</key>
++				<string>io.herow.sdk.HerowSDKTEST</string>
++				<key>bundle-version</key>
++				<string>1</string>
++				<key>kind</key>
++				<string>software</string>
++				<key>title</key>
++				<string>HerowSDKTEST</string>
++			</dict>
++		</dict>
++	</array>
++</dict>
++</plist>
